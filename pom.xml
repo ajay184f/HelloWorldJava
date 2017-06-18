@@ -9,6 +9,22 @@
 	<description>Learn Java JSP and Servlet</description>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
+<dependency>
+    <groupId>net.sourceforge.cobertura</groupId>
+    <artifactId>cobertura</artifactId>
+    <version>2.1.1</version>
+    <scope>test</scope>
+</dependency>
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
